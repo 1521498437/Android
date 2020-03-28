@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="三种布局" />
+
+    <Button
+        android:id="@+id/linearlayout"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#CC0000"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="100dp"
+        android:text="linearlayout线性布局" />
+
+    <Button
+        android:id="@+id/Constraintlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#EEEE00"
+        android:layout_marginBottom="100dp"
+        android:text="Constraintlayout约束布局" />
+
+    <Button
+        android:id="@+id/tablelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#7744FF"
+        android:text="tablelayout表格布局" />
+
+
+</LinearLayout>
