@@ -1,8 +1,6 @@
-## 主窗口包含三个按钮，Java代码（MainActivity.java）
+## 主窗口包含三个按钮，
 
-## 实现响应按钮点击切换界面：
-
-##### 
+### Java代码（MainActivity.java）实现响应按钮点击切换界面：
 
 #### 主界面（activity_main.xml）：
 
